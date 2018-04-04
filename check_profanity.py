@@ -1,7 +1,7 @@
 import urllib
 
 def read_text () :
-    quotes = open ("/Users/ndeyisatoujobe/Desktop/udacity/Programming_Foundations_with_Python/profanity_editor/movie_quotes.txt")
+    quotes = open ("file_path")
     contents_of_file = quotes.read()
     print (contents_of_file)
     quotes.close()
