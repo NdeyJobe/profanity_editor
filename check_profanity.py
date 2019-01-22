@@ -1,7 +1,7 @@
 import urllib
 
 def read_text () :
-    quotes = open ("file_path_does_not_exist")
+    quotes = open ("file_path_does_not_exist_does exist")
     contents_of_file = quotes.read()
     print (contents_of_file)
     quotes.close()
